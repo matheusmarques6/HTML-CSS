@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações e Códigos</title>
+</head>
+<body>
+    <h1>Citações e Códigos</h1>
+    <h2>&lt;code&gt;</h2>
+    <p>
+        Ótima marcação para ler códigos, deixando os caracteres mono espaçados.<br>Ex:<br>
+        m=input('Digite o seu nome: ')
+        if m=='Vitor':
+        print('Acesso Aprovado')
+        else:
+        print('Acesso negado')
+        Com a &lt;code&gt;:
+        <code>
+            m=input('Digite o seu nome: ')
+            if m=='Vitor':
+            print('Acesso Aprovado')
+            else:
+            print('Acesso negado')
+        </code>
+        
+    </p>
+    <p><strong>Mas perceba que ha um problema</strong> - o código não manteve as indentações e espaços.<br>
+        Para isso utilizaremos a tag &lt;pre&gt; antes do code,para manter todos os espaços e indentações.</p>
+    <pre><code>
+        m=input('Digite o seu nome: ')
+        if m=='Vitor':
+        print('Acesso Aprovado')
+        else:
+        print('Acesso negado')
+        </code></pre>
+    Quer que fique encostado na margem da pagina,basta selecionar e aperta shift+tab
+    <pre><code>
+m=input('Digite o seu nome: ')
+if m=='Vitor':
+print('Acesso Aprovado')
+else:
+print('Acesso negado')
+    </code></pre>
+    <h2>Citações</h2>
+    <p>
+        Existem dois tipos de citações:<br><strong>Com link - &lt;blockquote&gt;<br>Normal - &lt;q&gt;</strong><br>
+        blockquote - para grandes citações - mostra para os meios de pesquisa, onde seu site tirou a citação
+        q - Normal(Apenas coloca as aspas)<br>
+        Ex:<br>
+        Normal - <q>Tudo que faz é pra comer alguem.</q><br>
+        Diferente - <blockquote cite="https://pt.db-city.com/Brasil--Minas-Gerais--Curvelo"> O Pontal Plaza Hotel oferece piscina ao ar livre e restaurante em Curvelo, com instalações modernas. Este hotel 3 estrelas possui restaurante e instalações para reuniões. O acesso Wi-Fi gratuito está disponível para sua comodidade. Os quartos do Pontal Plaza estão decorados em tons de terra e possuem TV de tela plana, frigobar e canais a cabo. Os quartos também incluem banheiro privativo com chuveiro de água quente. A propriedade oferece estacionamento gratuito. Você estará a 1 km do centro da cidade e da Praça da Estação. O hotel fica a 4 km da Igreja de São Geraldo e a 153 km do Aeroporto Internacional de Confins. Você pode saborear o buffet de café da manhã do Pontal Hotel, com frutas da estação, sucos naturais e pãezinhos</blockquote> <br>
+        Agora os mecanismos do google sabe,exatamente, onde eu tirei esta citação com o paramentro cite depois do blockquote.
+    </p>
+    
+    <h2>Sigla</h2>
+    <p>Quando passar o mouse emcima, um mini pop up com a explicação vai aparecer.<br>Ex: <abbr title="HyperText Morkup Language">HTML</abbr> </p>
+    <h2>Texto Invertido</h2>
+    <p>Inverte o texto - Left to Right ou Right to Left <br><bdo dir="rtl">A frase está invertida </bdo> </p>
+    <p><strong>Quer saber a utilidade?</strong> <br>@joaooliveira5136
+        há 1 ano
+        Prezado professor, para quem já tentou baixar conteúdo de certos sites que usam redirecionamento dos links de download, a tag que inverte texto é bastante útil, pois uma das técnicas usadas por esses sites é enviar o link invertido para o redirecionador de link na URL... com essa tag é possível copiar o link (invertido)  em questão e conserta-lo (inverte-lo) sem precisar passar por sites de terceiros....😉</p>
+</body>
+</html>

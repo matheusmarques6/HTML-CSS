@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias no HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamica</h1>
+    <p>O conceito é que as imagens vão se adaptando ao tamanho, se passar de um determinado tamanho ela troca para outra imagem.<br>
+    Existem 3 tipos de imagens nesse site: <br>
+    <ul>
+        <li>Pequena</li>
+        <li>Média</li>
+        <li>Grande</li>
+    </ul></p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Aúdios no site</h1>
+    <p>Em geral, aquivos mp3 são pesados e acabam prejudicando o site.Existem 3 formatos de arquivos de áudio:<br>
+    <ol><li>mpeg - MP3</li><li>WAV - péssimo - pesado demais</li><LI>OGG </LI></ol></p>
+    <audio  preload="metadata"  controls autoplay  >
+        <source src="midia/magia.ogg" type="audio/ogg">
+        <source src="midia/magia.mp3" type="audio/mpeg">
+        <source src="midia/magiaw.wav" type="audio/wav">
+        <p>Caso não reproduza o audio, baixe <a href="midia/magia.mp3">Aqui</a></p>
+    </audio>
+
+</body>
+</html>

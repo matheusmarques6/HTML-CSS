@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right,#63118A,#9E1ADB);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    border-radius: 10px;/*ajuste na ponta da caixa,deixa ela mais redonda*/
+    box-shadow: 8px 8px 15px #280738;
+    width: 600px; /*largura da caixa*/
+    padding: 5px; /*distanciamento da borda da caixa para as letras */
+    margin:auto /*ajuste para o centro/ do main automático ao tamanho da tela */
+}
+h1{
+    text-align: center;
+    color: #280738;
+    text-shadow: 2px 2px 0px #390153a4;
+}
+h2{
+    color:#420B5C ;
+
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+:root{
+    --padrao:Arial, Verdana, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family:'droid' ;
+    src: url(fontes/idroid.otf);
+}
+
+h1{
+    font-family: droid;
+}
+h3{font-family: droid;
+    background-image: linear-gradient(to right ,#CDEFDD,white);
+
+}

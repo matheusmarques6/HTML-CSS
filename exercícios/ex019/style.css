@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Dale' ;
+    src: url("Lana Turner.ttf");
+}
+h1#dale{
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+h1#glub{
+    background-color: bisque;
+    font-family: Dale;
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    font-style: italic;
+}
+p{
+    font-style: normal;
+    text-align: justify;
+
+}
+h2#bora{
+    background-color: blueviolet;
+    text-align: center;
+    font-style: normal;
+}
+.basico{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Dale;
+}
